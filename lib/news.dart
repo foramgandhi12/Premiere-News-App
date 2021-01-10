@@ -5,7 +5,7 @@ import 'dart:convert';
 class News {
   List<Article> news = [];
 
-  String api_key = 'c0a9199d1fd7498cb3103df12ade780b';
+  String api_key = '';
   String headline = 'top-headlines';
 
   Future<void> getNews() async {
